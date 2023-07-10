@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    justify-content: space-around;
+    background-color: darkgrey;
+}
+
+div>ul>li{
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    padding: 15px;
+
+}
+
+/* ----------------------------------------- */
+
+.banner{
+    background-image: url('image/background.jpg'),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.primary{
+    color: red;
+}
+
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.bg-primary{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.list{
+    padding: 10px;
+    margin: 5px;
+}
+
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid lightblue;
+    padding: 50px;
+}
+
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.right-side-container{
+    display: flex;
+}
+
+.service-container{
+    height:100vh;
+    background-image: url("image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    gap: 5px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+
+}
+
+.service-description{
+    width: 50%;
+}
+
+.left-side-container{
+    align-items: center;
+    padding: 30ppx;
+}
+
+
+.phone-call{
+    width: 100px;
+    padding-top: 30px;
+}
+.consultation{
+    padding-left: 30px;
+    color: white;
+}
+
+.blog-container{
+    display: flex;
+    width: 50%;
+    padding-left: 50PX;
+}
+.paragraph{
+    display: flex;
+    border-left: 2px solid white;
+    position: relative;
+}
+
+.make{
+    padding-left: 80px;
+}
+
+.blog{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -70px;
+    align-items: center;
+}
+
+
+.blog-news-description{
+    width: 200px;
+}
+
+.blog-news{
+    width: 400px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    text-align: center;
+}
+.blog-news-description{
+    text-align: center;
+    margin: auto;
+}
+
+/* ----------------------------------------- */
+.card-photo{
+    width: 280px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.card{
+    width: 280px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+}
+
+.heading{
+    padding: 10px;
+}
+
+.card-description{
+    padding: 10px;
+}
+
+.cards{
+    display: flex;
+    padding-left: 22%;
+    gap: 3px;
+    padding-bottom: 40px;
+}
+
+/* ---------------------------------------- */
+
+.footer-description{
+
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 150px 150px 0px 150px;
+    justify-content: space-around;
+}
+
+.footer-item{
+    width: 250px;
+}
+.text-description{
+    width: 200px;
+    padding-bottom: 40px;
+}
+
+.footer-description{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.footer-links{
+    display: flex;
+}
+
+.links{
+    padding-right: 80px;
+}
+.footer{
+    height:70vh;
+    background-image: url("image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.horijantal-line{
+    width: 50%;
+    margin: auto;
+}
+h5{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}

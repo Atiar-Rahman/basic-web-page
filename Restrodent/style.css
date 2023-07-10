@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Create navbar style  */
+
+.restaurant-img{
+    width: 80px;
+}
+.naver-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    padding-bottom: 10px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+li a {
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ------------------------------------- */
+
+.banner-container{
+    background-image: url('images/pngtree-fresh.jpg'),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title{
+    width: 300px;
+    padding: 30%;
+    padding-top: 20%;
+}
+
+.header{
+    color: white;
+    font-size: 60px;
+    margin-left: 10px;
+}
+.banner-description{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+.btn-order{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+
+/* -------------------------------- */
+
+.morden{
+    width: 600px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+.online{
+    margin-top: 70px;
+    display: flex;
+    margin-left: 30%;
+}
+
+.morden-description{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+/* -------------------------------------------------- */
+.main{
+    font-size: 50px;
+}
+.menu-description{
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.top-img{
+    width: 300px;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin-left: 30%;
+    gap: 100px;
+}
+
+/* ---------------------- */
+
+.food-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 28%;
+    gap: 60px;
+}
+.vegan{
+    background-image: url('images/vegan-food.jpg'),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    width: 200px;
+    height: 200px;
+}
+
+.salads{
+    background-image: url('images/salate.jpg'),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;;
+    width: 200px;
+    height: 200px;
+}
+.meet{
+    background-image: url('images/meet.jpg'),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;;
+    width: 200px;
+    height: 200px;
+}
+
+.food{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.food-heading{
+    margin-bottom: 20px;
+}
+
+/* -------------------------------------------- */
+
+.galary-heading{
+    font-size: 40px;
+    text-align: center;
+}
+.galary-description{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.galary-img{
+    width: 300px;
+    height: 300px;
+}
+
+.first-section, .second-section{
+    display: flex;
+    align-items: center;
+    margin-left: 22%;
+    gap: 40px;
+    margin-top: 40px;
+}
+.galary{
+    margin-bottom: 60px;
+}
+
+.online{
+    margin-left: 48%;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+
+.form-fillup{
+    padding-bottom: 100px;
+    border: 2px solid white;
+    background-color: rgba(117, 176, 224, 0.877);
+    color: white;
+    padding-left: 40%;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.phone{
+    padding: 20px;
+}
+
+
+/* ------------------------------------------ */
+
+.footer-container{
+    background-color: dimgray;
+    height: 35vh;
+}
+
+.footer-title{
+    display: block;
+    margin-left: 30%;
+    padding-top: 50px;
+}
+
+.con{
+    padding-bottom: 20px;
+    color: white;
+}
+.horizantal-line{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.contact-info{
+  padding-bottom: 10px;
+  color: white;
+}
